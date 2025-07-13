@@ -59,6 +59,7 @@ Build/*/**
 
 # Don't ignore icon files in Build
 !Build/**/*.ico
+!ThirdParty/Steamworks/**
 
 # Built data for maps
 *_BuiltData.uasset
@@ -77,3 +78,5 @@ DerivedDataCache/*
 Content/DataTable/DT_*
 
 # IDE
+.idea/*
+ExtractionRPG.sln.*
